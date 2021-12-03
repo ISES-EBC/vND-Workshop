@@ -19,12 +19,12 @@ variable "aciUrl" {
   default = ""
 }
 
-variable "bd1Subnet" {
+variable "bd_data_subnet" {
   type    = string
   default = "1.1.1.254/24"
 }
 
-variable "bd2Subnet" {
+variable "bd_mgmt_subnet" {
   type    = string
   default = "1.1.2.1/24"
 }

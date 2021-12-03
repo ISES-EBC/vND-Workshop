@@ -1,5 +1,5 @@
 resource "aci_application_profile" "vND_APP" {
-  tenant_dn = aci_tenant.mgmt.id
+  tenant_dn = data.aci_tenant.mgmt.id
   name      = "vND_APP"
 }
 
