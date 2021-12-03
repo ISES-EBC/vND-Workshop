@@ -7,7 +7,6 @@ provider "aci" {
   url         = var.aciUrl
 }
 
-resource "aci_tenant" "tenant1" {
-  name        = var.tenantName
-  description = "automated by terraform Cloud"
+data "aci_tenant" "mgmt" {
+  name        = "mgmt"
 }
