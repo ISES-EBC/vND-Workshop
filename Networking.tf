@@ -1,5 +1,5 @@
 data "aci_vrf" "inb" {
-  tenant_dn = "uni/tn-mgmt/ctx-inb"
+  tenant_dn = "uni/tn-mgmt"
   name      = "inb"
 }
 
