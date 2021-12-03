@@ -1,6 +1,3 @@
-variable "tenantName" {
-  default = "Bynet3_tn"
-}
 
 variable "aciUser" {
   default = "apic:backmeup\\\\admin"
@@ -42,5 +39,5 @@ variable "vmmDomain" {
 }
 
 variable "l3OutName" {
-  default = "L3-Out-Internet"
+  default = "InBandMgmt_L3Out"
 }
