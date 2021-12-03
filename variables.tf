@@ -41,11 +41,3 @@ variable "vmmDomain" {
 variable "l3OutName" {
   default = "InBandMgmt_L3Out"
 }
-
-variable "provider_profile_dn" {
-  default = "uni/vmmp-VMware"
-}
-
-variable "vmmDomain" {
-  default = "hxebc"
-}
