@@ -31,3 +31,8 @@ resource "aci_subnet" "bd_mgmt_subnet" {
   ip        = var.bd_mgmt_subnet
   scope     = ["public"]
 }
+
+data "aci_vmm_domain" "vds" {
+  provider_profile_dn = var.provider_profile_dn
+  name                = var.vmmDomain
+}
